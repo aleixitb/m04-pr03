@@ -1,0 +1,33 @@
+.container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 1em;
+}
+.sobremi {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 0.5em;
+}
+.llibre {
+     display: flex;
+     flex-direction: column;
+     padding: 1em;
+     background-color: #EDE7E6;
+     width: 14em;
+     height: auto;
+}
+.apuntame {
+     display: flex;
+     justify-content: center;
+     padding: 0.5em;
+     color: #000;
+     background-color: #7ABA96;
+     font-weight: bolder;
+}
+a {
+     color: #000;
+}

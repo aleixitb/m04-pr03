@@ -1,0 +1,51 @@
+.content {
+     padding: 2em 10em;
+     display: flex;
+     flex-direction: column;
+}
+a {
+     color: #000;
+}
+article {
+     display: inherit;
+     flex-direction: row;
+     align-items: center;
+     border-bottom: 1px solid black;
+}
+article * {
+     padding: 0 1em 0 0;
+}
+article img {
+     height: 7em;
+     width: auto;
+}
+.paginacion {
+	margin:20px 0;
+}
+
+.paginacion ul {
+	list-style:none;
+	text-align: center;
+}
+
+.paginacion ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+
+.paginacion ul li a {
+	display:block;
+	padding:10px 20px;
+	background:#8A8070;
+	text-decoration: none;
+     border-radius: 20%;
+}
+
+.paginacion ul li a:hover {
+	background:#037E8C;
+}
+
+.paginacion ul li .active {
+	background:#7ABA96;;
+	font-weight:bold;
+}
